@@ -1,0 +1,81 @@
+êKeyboard Controlsë
+àFunction Keyså
+ôF1...Open File
+F2...Save File
+F3...Find Next          
+F4...Copy Selected Data
+F5...Paste Copied Data
+F6...Cut Selected Data
+F10..This Help Fileö
+àManeuvering Keyså
+ôHOME.........First Block
+END..........Last Block
+PAGE UP......Previous Block
+PAGEDOWN.....Next Block
+DELETE.......Delete Selected Text
+UP ARROW.....Previous Row
+DOWN ARROW...Next Row
+RIGHT ARROW..Next Cell
+LEFT ARROW...Previous Cellö
+"----------------------------------------"
+êSelecting HEX or TEXTë
+àGeneralå
+ôSelected data can be CUT, COPIED, and DELETED.
+Selected data is identified by a grid with a black background with white text.ö
+àShift Methodå
+ôSelect the start of the selecton by clicking the desired grid.
+While holding the SHIFT key, select the end of the selecton by clicking the desired grid.
+Selected HEX or TEXT can also be copied and pasted into the search box.ö
+àDouble-Click Methodå
+ôSelect the start of the selecton by DOUBLE-CLICKING and holding the left mouse button.
+Drag the mouse to the end of the desired selection, release the mouse button.
+Selected HEX or TEXT can also be copied and pasted into the search box.ö
+"----------------------------------------"
+êSearching For HEX or TEXTë
+àGeneralå
+ôTYPE or PASTE the desired search criteria into the search box.
+Click the FIND button to start searching from the beginning of the file.
+Click the FIND NEXT button to search for the next occurance or from the selected grid position.ö
+àSearch Typeå
+ôClick the button to the left of the search box to toggle between HEX search or TEXT search.
+To search for exact match, check the "Match Case". The "Match Case" is automatically checked when searching for hex.ö
+"----------------------------------------"
+êEditing HEX or TEXTë
+àChanging HEX Dataå
+ôClick on the desired 'Hex Grid' cell you want to edit and start typing.
+The grid will automatically advance to the next cell upon entering the second digit. a leading ZERO must be typed for values less than &10.
+Editing provides only overwrite mode.ö
+àChanging TEXT Dataå
+ôClick on the desired 'Text Grid' cell you want to edit and start typing.
+The grid will automatically advance to the next cell upon pressing a key.
+Editing provides only overwrite mode.ö
+àInserting HEX or TEXT Dataå
+ôClick on the desired 'Hex Grid' or 'Text Grid' cell where you want to insert data.
+Click either the 'Insert Row' button (to insert 16 cells) or the 'Insert Block' button (to insert 512 cells).
+Add the desired data to the cells, select and delete the unused cells.ö
+àRight Mouse Functionså
+ôWhen the mouse pointer is over either the 'Hex Grid' or 'Text Grid', clicking the right mouse button will bring up a menu with the following edit functions:
+CUT, COPY, PASTE, DELETE
+INSERT ROW and INSERT BLOCKö
+"----------------------------------------"
+êFile Positioningë
+àGeneralå
+ôThere are several ways of getting to a particular position in the file.
+You can use the 'Scroll Bar', 'Goto File Location', 'Goto Page' or the cursor keys.
+As you move the mouse around the grid, the status bar will indicate the current file position.ö
+àGoto File Locationå
+ôAs you start typing in the 'Goto File Location' box, the file will automatically begin advancing to the location. The box will turn RED to indicate an invalid file position.ö
+àGoto Pageå
+ôAs you start typing in the 'Goto Page' box, the file will automatically begin advancing to the location of the start of a printable page. The box will turn RED to indicate an invalid printable page.ö
+"----------------------------------------"
+êPrintingë
+àGeneralå
+ôClicking the 'Print Preview' will allow you to view a sample of the printed page and page printing options.ö
+àPrinting Optionså
+ôYou can choose to print the entire file or selected pages. Selecting pages has the following format:
+eg. 2,4,10-50,40:45,15,100
+The above example says to print:
+Page 2, Page 4, Page 15, Page 100
+Pages 10 through 15
+Pages 40 through 45ö
+"----------------------------------------"
